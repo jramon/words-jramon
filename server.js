@@ -10,7 +10,7 @@ app.get('/words/:query'+'.json', function (req, res) {
   if (query.isValid) {
     var data = query.findWords();
 
-    res.jsonp({ status: "success", data: data });
+    res.jsonp({ status: "success", data: { words: data } });
   } else {
     res.status(400).json({ message: query.messages[400] });
   }
