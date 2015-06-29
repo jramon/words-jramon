@@ -1,0 +1,23 @@
+{
+  "name": "words-jramon",
+  "version": "0.0.0",
+  "description": "Code assigment for Conde Nast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jramon/words-jramon.git"
+  },
+  "author": "Ramon Maturano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jramon/words-jramon/issues"
+  },
+  "homepage": "https://github.com/jramon/words-jramon",
+  "dependencies": {
+    "express": "^4.13.0",
+    "lodash-node": "^3.9.3"
+  }
+}
